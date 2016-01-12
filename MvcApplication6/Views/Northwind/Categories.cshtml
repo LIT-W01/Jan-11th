@@ -1,0 +1,20 @@
+﻿@using DataLayer;
+@model IEnumerable<Category>
+
+<table class="table table-hover table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Link</th>
+    </tr>
+    @foreach (Category c in Model)
+    {
+        <tr>
+            <td>@c.Name</td>
+            <td>@c.Description</td>
+            <td>
+                <a class="btn btn-primary" href="/northwind/products?catid=@c.Id">View Products</a>
+            </td>
+        </tr>
+    }
+</table>

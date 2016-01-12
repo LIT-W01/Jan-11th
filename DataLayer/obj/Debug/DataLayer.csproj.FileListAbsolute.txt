@@ -1,0 +1,5 @@
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication6\DataLayer\bin\Debug\DataLayer.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication6\DataLayer\bin\Debug\DataLayer.pdb
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication6\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication6\DataLayer\obj\Debug\DataLayer.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication6\DataLayer\obj\Debug\DataLayer.pdb

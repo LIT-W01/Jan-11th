@@ -1,0 +1,22 @@
+﻿@using DataLayer
+@using MvcApplication6.Models;
+@model ProductsViewModel
+
+<h2>Products for: @Model.Category.Name</h2>
+
+<table class="table table-hover table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Quantity Per Unit</th>
+        <th>Unit Price</th>
+    </tr>
+    @foreach (Product p in Model.Products)
+    {
+        <tr>
+            <td>@p.Name</td>
+            <td>@p.QuantityPerUnit</td>
+            <td>@p.UnitPrice</td>
+        </tr>
+    }
+</table>
+
